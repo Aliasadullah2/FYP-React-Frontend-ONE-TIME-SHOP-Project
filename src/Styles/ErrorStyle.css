@@ -1,0 +1,11 @@
+/* Error Page CSS */
+
+.wrappers{
+    text-align: center;
+    background-color: #ecedf3;
+  }
+  .wrapper img {
+    width: 600px;
+    max-width: 100%;
+  }
+  

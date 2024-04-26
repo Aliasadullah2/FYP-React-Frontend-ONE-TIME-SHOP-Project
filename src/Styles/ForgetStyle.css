@@ -1,0 +1,78 @@
+
+.wrapper{
+    padding: 0 0 100px;
+    background-image: url(../Assets/log-signup-bg.png);
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-attachment: fixed;
+    min-height: 100%;    
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+
+  
+}
+.wrapper .logo img{
+    max-width: 80%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.wrapper input{
+    background-color: var(--light-white);
+    border-color: var(--light-white);
+    color: var(--gray);
+
+}
+
+.wrapper input:focus{
+    box-shadow: none;
+}
+
+.wrapper .password-info{
+    font-size: 10px;
+}
+
+.wrapper .city_opt option{
+    min-width: 100%;
+    padding: 10px 20px;
+    
+   
+}
+
+
+
+
+.wrapper .submit_btn{
+    padding:6px 10px;
+    font-weight: 600;
+    border-color: var(--main-color);
+    
+}
+.wrapper .submit_btn:hover{
+    background-color: var(--main-color);
+    color: var(--light-white);
+}
+
+/* .wrapper .login_with{
+    padding: 8px 15px;
+    font-size: 15px;
+    font-weight: 500;
+    transition: 0.3s ease-in-out ;
+} */
+
+.wrapper .submit_btnl:focus,
+.wrapper .login_with:focus{
+    box-shadow: none;
+}
+
+.wrapper .login_with:hover{
+    background-color: var(--gray-1);
+    border-color: var(--gray-1);
+}
+
+.wrapper .login_with img{
+    max-width: 8%;
+}
